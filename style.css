@@ -1,0 +1,23 @@
+
+#wrapper{
+    width:970px;
+    background-color: #2b4f74;
+}
+
+
+img{
+    display: inline-block;
+    width:400px;
+}   
+#search{
+    display: inline-block;
+    margin-left: 100px;    
+}
+#search p{
+    vertical-align: top;
+    color:white;
+    
+}
+#search form{
+    margin:0px;
+}
