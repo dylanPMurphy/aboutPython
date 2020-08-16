@@ -64,6 +64,11 @@ img{
     padding-left: 30px;
     font-size:22px;
     vertical-align: center;
+    
+}
+#nav table tr td a{
+    text-decoration: none;
+    color: white;
 }
 #fancyList{
     display: inline-block;
@@ -97,7 +102,7 @@ img{
     text-align:center;
     
 }
-#about h6{
+#about h5{
     color: #fed748;
     text-align: center;
     margin:10px;
@@ -113,4 +118,5 @@ img{
 
     display:inline-block;
     width:400px;
+    text-align:center;
 }
