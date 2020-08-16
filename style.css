@@ -3,10 +3,11 @@
     width:970px;
     height: 1000px;
     background-color: #2b4f74;
-
+    font-family: Helvetica; 
 }
-
-
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
 img{
     display: inline-block;
     width:400px;
@@ -48,27 +49,31 @@ img{
     border-radius: 10px;
     height: 40px;
     width: 860px;
+
+
 }
 #nav table{
     width: 600px;
-    
 }
 #nav table tr{
     vertical-align: middle;
     display: inline-block;
+    padding-top:2px;
+    
 }
 #nav table tr td{
     text-align: center;
     width: 100px;
-    
-    padding-left: 30px;
+    padding-left: 40px;
     font-size:22px;
-    vertical-align: center;
+    
+    
     
 }
 #nav table tr td a{
     text-decoration: none;
     color: white;
+    
 }
 #fancyList{
     display: inline-block;
@@ -95,16 +100,16 @@ img{
     display: inline-block;
     margin-left: 30px;
     width:600px;
+    text-align: center;
 }
 #about p{
     color:white;
-    font-size:12px;
-    text-align:center;
+    font-size:14px;
     
 }
-#about h5{
+#about h4{
     color: #fed748;
-    text-align: center;
+    
     margin:10px;
 }
 #row2{
@@ -115,8 +120,27 @@ img{
 .row-two{
     vertical-align: top;
     background-color:white;
-
+    margin-top:10px;
+    text-align: center;
     display:inline-block;
     width:400px;
-    text-align:center;
+    border-top: #4c7ba9 solid 5px;
+    
+    
+}
+.row-two ul {
+
+    padding-left:0px;
+    
+    
+}
+.footer{
+    color:#78a7d3;
+    display:inline-block;
+    margin-left: 60px;
+    text-align: center;
+    
+}
+.footer:first-of-type{
+    margin-left:200px;
 }
