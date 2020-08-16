@@ -1,7 +1,9 @@
 
 #wrapper{
     width:970px;
+    height: 1000px;
     background-color: #2b4f74;
+
 }
 
 
@@ -11,13 +13,104 @@ img{
 }   
 #search{
     display: inline-block;
-    margin-left: 100px;    
+    margin-left: 250px;
+    vertical-align: top;
 }
 #search p{
     vertical-align: top;
+    text-align: right;
     color:white;
-    
+
 }
 #search form{
-    margin:0px;
+    width:250px;
+    margin-left:0px;
+    padding:20px;
+    background-color:#464646;
+    border-radius: 5px;
+}
+#go{
+    width:40px;
+    background-color:#2b4f74;
+    color: white;
+}
+#searchbox{
+    width:180px;
+    display: inline-block;
+}
+#nav{
+    background-color: #4c7ba9;
+    margin-top: 20px;
+    margin-left: 70px;
+    display: inline-block;
+    color:white;
+    box-shadow: 5px 5px black;
+    border-radius: 10px;
+    height: 40px;
+    width: 860px;
+}
+#nav table{
+    width: 600px;
+    
+}
+#nav table tr{
+    vertical-align: middle;
+    display: inline-block;
+}
+#nav table tr td{
+    text-align: center;
+    width: 100px;
+    
+    padding-left: 30px;
+    font-size:22px;
+    vertical-align: center;
+}
+#fancyList{
+    display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+    color: white;
+    vertical-align: top;
+    margin-top:30px;
+
+
+}
+#fancyList li{
+    margin-top:4px;
+    list-style-type: none;
+}
+#fancyList li:before{
+    content: '»';
+    color: #fed748;
+}
+#fancyList a{
+    color:white;
+}
+#about{
+    display: inline-block;
+    margin-left: 30px;
+    width:600px;
+}
+#about p{
+    color:white;
+    font-size:12px;
+    text-align:center;
+    
+}
+#about h6{
+    color: #fed748;
+    text-align: center;
+    margin:10px;
+}
+#row2{
+    width:900px;
+    padding-left: 70px;
+    background-color: white;
+}
+.row-two{
+    vertical-align: top;
+    background-color:white;
+
+    display:inline-block;
+    width:400px;
 }
